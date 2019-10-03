@@ -15,7 +15,7 @@ export default function() {
     return (
         <img
             className="logo"
-            src={query.site.siteMetadata.logo}
+            src={query.site.siteMetadata.logo-web}
             alt={query.site.siteMetadata.title}
         />
     );
